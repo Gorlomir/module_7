@@ -51,8 +51,6 @@ class Shop:
     def get_products(self):
         return pprint.pformat([str(product) for product in self.products])
 
-
-# Тестовый код
 s1 = Shop()
 p1 = Product('Potato', 50.5, 'Vegetables')
 p2 = Product('Spaghetti', 3.4, 'Groceries')
